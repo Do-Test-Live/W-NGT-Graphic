@@ -76,6 +76,7 @@ header{
 .ngt-btn{
     font-family: 'JuraBold';
     border-radius: 25px;
+    border: none;
     font-weight: 700;
     font-size: 19px;
     padding-left: 40px;
@@ -89,4 +90,53 @@ header{
     background: url("../images/button/btn-hover.png") no-repeat;
     background-size: cover;
     color: black;
+}
+
+.ngt-banner{
+    background-image: url("../images/bg/bg_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ngt-banner-header{
+    font-family: 'MechanismoRegular';
+    color: white;
+    font-size: 90px;
+}
+
+.ngt-banner-content{
+    font-family: 'JuraBold';
+    font-size: 23px;
+    color: white;
+}
+
+.ngt-banner-btn{
+    font-family: 'JuraBold';
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: url("../images/button/btn.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.ngt-banner-btn:hover{
+    background: url("../images/button/btn-hover.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.ngt-banner-content-white{
+    font-family: 'JuraBold';
+    font-size: 28px;
+    color: white;
+}
+
+.ngt-banner-content-blue{
+    font-family: 'JuraBold';
+    font-size: 28px;
+    color: #0dccff;
 }
