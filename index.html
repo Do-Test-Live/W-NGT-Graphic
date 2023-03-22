@@ -3,23 +3,23 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="description" content="NGT Graphic Design">
-    <meta name="keywords" content="NGT Graphic Design"/>
-    <meta name="author" content="NGT Graphic Design">
+    <meta content="NGT Graphic Design" name="description">
+    <meta content="NGT Graphic Design" name="keywords"/>
+    <meta content="NGT Graphic Design" name="author">
 
-    <meta property="og:title" content="NGT Graphic Design" />
-    <meta property="og:image" content="https://www.design.ngt.hk/assets/images/desktop/background.png" />
-    <meta property="og:image:secure_url" content="https://www.design.ngt.hk/assets/images/desktop/background.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="600" />
-    <meta property="og:image:height" content="400" />
-    <meta property="og:image:alt" content="NGT Graphic Design" />
-    <meta property="og:description" content="NGT Graphic Design" />
-    <meta property="og:url" content="https://www.design.ngt.hk" />
-    <meta property="og:type" content="website" />
+    <meta content="NGT Graphic Design" property="og:title"/>
+    <meta content="https://www.design.ngt.hk/assets/images/desktop/background.png" property="og:image"/>
+    <meta content="https://www.design.ngt.hk/assets/images/desktop/background.png" property="og:image:secure_url"/>
+    <meta content="image/png" property="og:image:type"/>
+    <meta content="600" property="og:image:width"/>
+    <meta content="400" property="og:image:height"/>
+    <meta content="NGT Graphic Design" property="og:image:alt"/>
+    <meta content="NGT Graphic Design" property="og:description"/>
+    <meta content="https://www.design.ngt.hk" property="og:url"/>
+    <meta content="website" property="og:type"/>
 
     <title>NGT Graphic Design</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/logo/favicon.ico">
+    <link href="assets/images/logo/favicon.ico" rel="icon" type="image/x-icon">
 
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
@@ -28,9 +28,10 @@
 <body>
 <!-- Header Start -->
 <header>
-    <nav class="navbar navbar-expand-lg bg-nav">
+    <nav class="navbar navbar-expand-lg bg-nav fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo/NGT-logo.png" class="img-fluid ngt-logo" alt=""/></a>
+            <a class="navbar-brand" href="#"><img alt="" class="img-fluid ngt-logo"
+                                                  src="assets/images/logo/NGT-logo.png"/></a>
             <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                     class="navbar-toggler" data-bs-target="#navbarSupportedContent"
                     data-bs-toggle="collapse" type="button">
@@ -67,7 +68,7 @@
 <!-- Banner Start -->
 <section class="ngt-banner">
     <div class="container-fluid">
-        <div class="row pt-5 pb-5">
+        <div class="row pt-5">
             <div class="col-lg-5">
                 <h1 class="ngt-banner-header">
                     WE<br/>
@@ -77,12 +78,12 @@
                 </h1>
                 <p class="ngt-banner-content mt-4">Get the perfect custom design, every time</p>
                 <a class="btn btn-success ngt-banner-btn">Get started now <i class="fa-solid fa-angle-right"></i></a>
-                <img src="assets/images/home/logo.png" class="img-fluid mt-4" alt=""/>
+                <img alt="" class="img-fluid mt-4" src="assets/images/home/logo.png"/>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7" style="position: relative">
                 <div class="row">
                     <div class="col-3 text-center">
-                        <a href="#"><img src="assets/images/home/Play-Button-copy.png" class="img-fluid" alt=""></a>
+                        <a href="#"><img alt="" class="img-fluid" src="assets/images/home/Play-Button-copy.png"></a>
                     </div>
                     <div class="col-9 d-flex align-items-center">
                         <div>
@@ -91,11 +92,64 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img alt="" class="img-fluid" src="assets/images/home/banner.png">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <!-- Banner End -->
+
+<!-- Card Start -->
+<section class="ngt-card">
+    <div class="container pt-5 pb-5 text-center">
+        <p class="ngt-about-content">WE ARE CREATIVE AGENCY</p>
+        <h1 class="ngt-about-header"><span class="ngt-primary-color ngt-jura">Top-rated</span> GRAPHIC DESIGN COMPANY</h1>
+        <p class="ngt-about-content">
+           <span class="ngt-primary-color">NGT</span> is a top <span class="ngt-primary-color">graphic design</span> company and designing various sorts of works of art.<br/>
+            Our graphic designers cooperate in different fields.
+        </p>
+        <h2 class="ngt-about-header mt-5">BIG IDEAS, CREATIVE PEOPLE, NEW TECHNOLOGY</h2>
+        <p class="ngt-about-content">
+            A <span class="ngt-primary-color">successful</span> brand is the combination of different elements. As a design house, we use a <br/>
+            <span class="ngt-primary-color">multi-disciplined</span> approach to build trust and understanding between you and your customers.
+        </p>
+        <div class="row text-start mt-4">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">INTEGRATED SERVICES</h5>
+                        <p class="card-text">
+                            Our graphic design service offers the best services to the companies that need to support
+                            their deals and have a solid benefit.
+                            Our planners utilize most recent graphic design
+                            software
+                        </p>
+                        <a href="#" class="link-dark text-decoration-none">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/images/about/brand-positioning-.png" class="img-fluid" alt=""/>
+                        <h5 class="card-title">
+                            Logo & Brand Identity
+                        </h5>
+                        <p>
+                            LOGO | BRAND STYLE | BUSINESS CARDS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Card End -->
+
 <script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>
 <script src="assets/vendor/OwlCarousel/js/owl.carousel.min.js"></script>

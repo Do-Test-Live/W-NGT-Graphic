@@ -40,7 +40,7 @@ body{
     background-attachment: fixed;
 }
 
-header{
+nav{
     border-bottom: 5px solid;
     border-image: linear-gradient(45deg, #46aef7, #1dd5e6) 1;
 }
@@ -96,6 +96,7 @@ header{
     background-image: url("../images/bg/bg_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 50px;
 }
 
 .ngt-banner-header{
@@ -139,4 +140,29 @@ header{
     font-family: 'JuraBold';
     font-size: 28px;
     color: #0dccff;
+}
+
+.ngt-card{
+    background-image: url("../images/bg/bg_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ngt-about-header{
+    font-family: 'MechanismoRegular';
+    color: white;
+}
+
+.ngt-about-content{
+    font-family: 'JuraBold';
+    font-size: 23px;
+    color: white;
+}
+
+.ngt-primary-color{
+    color: #0dccff;
+}
+
+.ngt-jura{
+    font-family: 'JuraBold';
 }
