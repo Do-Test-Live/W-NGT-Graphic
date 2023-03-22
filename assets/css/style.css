@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'AldotheApache';
+    src: url('../fonts/AldotheApache.ttf');
+}
+
+@font-face {
+    font-family: 'BomBerescorthalf';
+    src: url('../fonts/BomBerescorthalf.ttf');
+}
+
+@font-face {
+    font-family: 'JuraBold';
+    src: url('../fonts/JuraBold.ttf');
+}
+
+@font-face {
+    font-family: 'MechanismoRegular';
+    src: url('../fonts/MechanismoRegular.otf');
+}
+
+@font-face {
+    font-family: 'OrbitronBlack';
+    src: url('../fonts/OrbitronBlack.ttf');
+}
+
+@font-face {
+    font-family: 'OrbitronBold';
+    src: url('../fonts/OrbitronBold.ttf');
+}
+
+@font-face {
+    font-family: 'TheAmbrosiaSociety';
+    src: url('../fonts/TheAmbrosiaSociety.otf');
+}
+
+body{
+    background-image: url("../images/bg/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    border-bottom: 5px solid;
+    border-image: linear-gradient(45deg, #46aef7, #1dd5e6) 1;
+}
+
+.bg-nav{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.nav-link{
+    margin-right: 2.5em;
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #46aef7, 0 0 30px #46aef7, 0 0 40px #0361ac, 0 0 50px #0361ac, 0 0 60px #0361ac, 0 0 70px #0361ac;
+}
+
+.ngt-logo{
+    width: 100px;
+}
+
+.ngt-circle-btn{
+    border-radius: 50%;
+    background-image: linear-gradient(140deg, #0dccff, #4760ff);
+}
+
+.ngt-circle-btn:hover{
+    background-image: linear-gradient(140deg, #ffffff, #ffffff);
+}
+
+.ngt-btn{
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: url("../images/button/btn.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.ngt-btn:hover{
+    background: url("../images/button/btn-hover.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
