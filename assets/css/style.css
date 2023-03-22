@@ -52,6 +52,7 @@ header{
 .nav-link{
     margin-right: 2.5em;
     color: white;
+    font-family: 'JuraBold';
 }
 
 .nav-link:hover{
@@ -73,7 +74,10 @@ header{
 }
 
 .ngt-btn{
+    font-family: 'JuraBold';
     border-radius: 25px;
+    font-weight: 700;
+    font-size: 19px;
     padding-left: 40px;
     padding-right: 40px;
     background: url("../images/button/btn.png") no-repeat;
