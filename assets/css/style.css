@@ -371,3 +371,72 @@ nav{
     color: white;
     font-size: 24px;
 }
+
+.ngt-footer{
+    background: url("../images/bg/bg_6.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.ngt-footer-content{
+    font-family: 'JuraBold';
+    color: white;
+    font-size: 24px;
+}
+
+.ngt-footer-title{
+    font-family: 'MechanismoRegular';
+    color: white;
+    font-size: 50px;
+}
+
+.ngt-footer-call{
+    font-family: 'JuraBold';
+    color: white;
+    font-size: 30px;
+}
+
+.ngt-footer-menu-outside{
+    border-top: 45px solid rgba(0,120,255,0.41);
+    border-bottom: 45px solid rgba(0,120,255,0.41);
+}
+
+.ngt-footer-menu-inside{
+    background: rgba(0,120,255,0.82);
+}
+
+.ngt-footer-copyright{
+    font-family: 'JuraBold';
+    color: white;
+}
+
+.ngt-footer-menu-text{
+    font-family: 'JuraBold';
+    color: white;
+    font-size: 28px;
+}
+
+.ngt-footer-menu-title{
+    font-family: 'OrbitronBlack';
+    color: white;
+    font-size: 28px;
+}
+
+.ngt-footer-card-title{
+    font-family: 'OrbitronBlack';
+    color: white;
+}
+
+.ngt-footer-card-content{
+    font-family: 'OrbitronBlack';
+    color: white;
+    font-size: 12px;
+}
+
+ul.ngt-footer-menu-list{
+    list-style: none;
+    font-family: 'OrbitronBlack';
+    color: white;
+    margin: unset;
+    padding: unset;
+}
