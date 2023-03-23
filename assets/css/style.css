@@ -232,3 +232,18 @@ nav{
     background-size: cover;
     color: black;
 }
+
+.ngt-services{
+    background-image: linear-gradient(270deg,  #00a0b0d1, #2f68a2d1);
+}
+
+.ngt-service-title{
+    font-family: 'OrbitronBlack';
+    color: white;
+    font-size: 50px;
+}
+
+.ngt-service-content{
+    font-family: 'JuraBold';
+    color: white;
+}
