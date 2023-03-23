@@ -247,3 +247,33 @@ nav{
     font-family: 'JuraBold';
     color: white;
 }
+
+.ngt-choose-us{
+    background: rgba(2, 4, 27, 0.9);
+}
+
+.ngt-choose-bg{
+    background: url("../images/why-choose-us/bg.png") no-repeat;
+    background-size: cover;
+    height: 920px;
+}
+
+.ngt-why-choose-content{
+    font-family: 'JuraBold';
+    color: white;
+}
+
+.ngt-why-choose-title{
+    font-family: 'MechanismoRegular';
+    color: white;
+}
+
+.ngt-why-choose-card-title{
+    font-family: 'MechanismoRegular';
+    color: #01e4df;
+}
+
+.ngt-why-choose-card-content{
+    font-family: 'JuraBold';
+    color: white;
+}
