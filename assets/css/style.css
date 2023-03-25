@@ -52,7 +52,7 @@ nav {
 .nav-link {
     margin-right: 2.5em;
     color: white;
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
 }
 
 .nav-link:hover, .active {
@@ -74,7 +74,7 @@ nav {
 }
 
 .ngt-btn {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     border-radius: 25px;
     border: none;
     font-weight: 700;
@@ -100,19 +100,19 @@ nav {
 }
 
 .ngt-banner-header {
-    font-family: 'MechanismoRegular';
+    font-family: 'MechanismoRegular', serif;
     color: white;
     font-size: 90px;
 }
 
 .ngt-banner-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     font-size: 23px;
     color: white;
 }
 
 .ngt-banner-btn {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     border-radius: 50px;
     border: none;
     font-weight: 700;
@@ -131,13 +131,13 @@ nav {
 }
 
 .ngt-banner-content-white {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     font-size: 28px;
     color: white;
 }
 
 .ngt-banner-content-blue {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     font-size: 28px;
     color: #0dccff;
 }
@@ -150,12 +150,12 @@ nav {
 }
 
 .ngt-about-header, .ngt-about-header-2, .ngt-about-header-3 {
-    font-family: 'MechanismoRegular';
+    font-family: 'MechanismoRegular', serif;
     color: white;
 }
 
 .ngt-about-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     font-size: 23px;
     color: white;
 }
@@ -165,7 +165,7 @@ nav {
 }
 
 .ngt-jura {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
 }
 
 .ngt-about-card {
@@ -193,21 +193,21 @@ nav {
 }
 
 .ngt-card-title {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
 }
 
 .ngt-card-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     font-size: 14px;
     font-weight: 900;
 }
 
 .ngt-card-link {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
 }
 
 .ngt-logo-card-title {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: #01e4df;
 }
 
@@ -216,7 +216,7 @@ nav {
 }
 
 .ngt-about-btn {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     border-radius: 50px;
     border: none;
     font-weight: 700;
@@ -238,13 +238,13 @@ nav {
 }
 
 .ngt-service-title {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: white;
     font-size: 50px;
 }
 
 .ngt-service-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
 }
 
@@ -259,22 +259,22 @@ nav {
 }
 
 .ngt-why-choose-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
 }
 
 .ngt-why-choose-title {
-    font-family: 'MechanismoRegular';
+    font-family: 'MechanismoRegular', serif;
     color: white;
 }
 
 .ngt-why-choose-card-title {
-    font-family: 'MechanismoRegular';
+    font-family: 'MechanismoRegular', serif;
     color: #01e4df;
 }
 
 .ngt-why-choose-card-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
 }
 
@@ -297,23 +297,23 @@ nav {
 }
 
 .ngt-work-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     font-size: 25px;
     color: white;
 }
 
 .ngt-work-title {
-    font-family: 'MechanismoRegular';
+    font-family: 'MechanismoRegular', serif;
     color: white;
 }
 
 .ngt-work-card-title {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: #01e4df;
 }
 
 .ngt-work-card-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
     font-size: 20px;
 }
@@ -342,18 +342,18 @@ nav {
 }
 
 .ngt-review-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
     font-size: 25px;
 }
 
 .ngt-reviewer-name {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: #01e4df;
 }
 
 .ngt-reviewer-post {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
 }
 
@@ -362,12 +362,12 @@ nav {
 }
 
 .ngt-review-start-title {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: white;
 }
 
 .ngt-review-start-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
     font-size: 24px;
 }
@@ -379,19 +379,19 @@ nav {
 }
 
 .ngt-footer-content {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
     font-size: 24px;
 }
 
 .ngt-footer-title {
-    font-family: 'MechanismoRegular';
+    font-family: 'MechanismoRegular', serif;
     color: white;
     font-size: 50px;
 }
 
 .ngt-footer-call {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
     font-size: 30px;
 }
@@ -406,36 +406,36 @@ nav {
 }
 
 .ngt-footer-copyright {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
 }
 
 .ngt-footer-menu-text {
-    font-family: 'JuraBold';
+    font-family: 'JuraBold', serif;
     color: white;
     font-size: 28px;
 }
 
 .ngt-footer-menu-title {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: white;
     font-size: 28px;
 }
 
 .ngt-footer-card-title {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: white;
 }
 
 .ngt-footer-card-content {
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: white;
     font-size: 12px;
 }
 
 ul.ngt-footer-menu-list {
     list-style: none;
-    font-family: 'OrbitronBlack';
+    font-family: 'OrbitronBlack', serif;
     color: white;
     margin: unset;
     padding: unset;
