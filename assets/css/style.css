@@ -441,6 +441,10 @@ ul.ngt-footer-menu-list {
     padding: unset;
 }
 
+.collapse-social-icons {
+    display: none !important;
+}
+
 @media only screen and (max-width: 550px) {
     .ngt-banner-header {
         font-size: 35px;
@@ -570,5 +574,36 @@ ul.ngt-footer-menu-list {
 
     .fa-solid.fa-bars.ngt-primary-color{
         font-size: 30px;
+    }
+
+    .collapse-social-icons {
+        display: flex !important;
+    }
+
+    .ngt-colapse-circle-btn {
+        border-radius: 50%;
+        background-image: linear-gradient(140deg, #0dccff, #4760ff);
+    }
+
+    .ngt-colapse-circle-btn:hover {
+        background-image: linear-gradient(140deg, #ffffff, #ffffff);
+    }
+
+    .ngt-colapse-btn{
+        font-family: 'JuraBold', serif;
+        border-radius: 25px;
+        border: none;
+        font-weight: 700;
+        font-size: 12px;
+        padding: 10px 20px;
+        background: url("../images/button/btn.png") no-repeat;
+        background-size: cover;
+        color: black;
+    }
+
+    .ngt-colapse-btn:hover {
+        background: url("../images/button/btn-hover.png") no-repeat;
+        background-size: cover;
+        color: black;
     }
 }
