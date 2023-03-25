@@ -606,4 +606,8 @@ ul.ngt-footer-menu-list {
         background-size: cover;
         color: black;
     }
+
+    .ngt-nav-icon{
+        display: none !important;
+    }
 }
