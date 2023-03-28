@@ -1,5 +1,5 @@
 // disable right click
-document.addEventListener('contextmenu', event => event.preventDefault());
+/*document.addEventListener('contextmenu', event => event.preventDefault());
 
 document.onkeydown = function (e) {
 
@@ -22,7 +22,7 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 85) {
         return false;
     }
-}
+}*/
 
 
 // Get the container element
@@ -45,3 +45,32 @@ for (let i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
+
+let currentSlide = 0;
+
+const slides = document.querySelectorAll(".ngt-review-panel-outer .ngt-review-panel-inner");
+
+for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+}
+
+slides[currentSlide].style.display = "block";
+
+function showSlide() {
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.transition = 'all 0.1s ease-out 0.1s';
+        slides[i].style.display = "none";
+    }
+
+    slides[currentSlide].style.display = "block";
+    slides[currentSlide].style.transition = 'all 1s ease-in 0.1s';
+
+    currentSlide+=1;
+
+    if(slides.length==currentSlide){
+        currentSlide = 0;
+    }
+}
+
+setInterval(showSlide, 5000);
+
